@@ -1,29 +1,277 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>내가 좋아하는 음식 레시피</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>22-23 시즌 유럽컵대회 최종 결과</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f2f2f2;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      padding: 20px;
+      text-align: center;
+    }
+
+    h1 {
+      margin: 0;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+    }
+
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+
+    th {
+      background-color: #333;
+      color: #fff;
+    }
+    img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+    }
+    .myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+  .myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+ 
+}
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+.myButton {
+	box-shadow:inset 0px 1px 3px 0px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:5px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:11px 23px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #2b665e;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #6c7c7c 5%, #768d87 100%);
+	background-color:#6c7c7c;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+  </style>
 </head>
 <body>
-  <body bgcolor='NavajoWhite'></body>
-  <div id="header">
-  </div>
-  <div id="main">
-<div>
-  <h1>로그인 하기</h1>
-  <hr>
-  <form action="https://yepar.github.io/html6/">
-    <td><label for="name">아이디</label></td>
-          <td><input id="name" type="text"></td>
-        </tr>
-        <br>
-        <tr>
-          <td><label for="name">비밀번호</label></td>
-          <td><input id="name" type="text"></td>
-        </tr>
-        <br>
-        <button type="submit">로그인</button>
+  <header>
+    <h1>22-23 시즌 유럽 컵 대회 최종 결과</h1>
+    <a href="C:\Users\student\Downloads\html 기말\html.html" class="myButton">프리미어리그</a>
+    <a href="C:\Users\student\Downloads\html 기말\html2.html" class="myButton">라리가</a> 
+    <a href="C:\Users\student\Downloads\html 기말\html3.html" class="myButton">세리에A</a>
+    <a href="C:\Users\student\Downloads\html 기말\html4.html" class="myButton">분데스리가</a>
+    <a href="C:\Users\student\Downloads\html 기말\html6.html" class="myButton">다음 시즌 이적 사가</a>
+  </header>
 
-  </form>    
-</div>
+  <main>
+    <h2>유럽 컵 대회 종류</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>이름</th>
+          <th>사진</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>챔피언스 리그</td>
+          <td><img src="https://i.namu.wiki/i/BuMh9njvyzXIHEJ67xktd-AzK6A5XjRhBiCzGsULiiIPYvlWLgCl8mOPVwCDdsabL-gto35rifVVMQN5B7xw4Q.webp"></td>
+        </tr>
+        <tr>
+          <td>유로파 리그</td>
+          <td><img src="https://i.namu.wiki/i/BuMh9njvyzXIHEJ67xktd-AzK6A5XjRhBiCzGsULiiIPYvlWLgCl8mOPVwCDdsabL-gto35rifVVMQN5B7xw4Q.webp"></td>
+        </tr>
+        <tr>
+          <td>유로파 컨퍼런스 리그</td>
+          <td><img src="https://i.namu.wiki/i/BuMh9njvyzXIHEJ67xktd-AzK6A5XjRhBiCzGsULiiIPYvlWLgCl8mOPVwCDdsabL-gto35rifVVMQN5B7xw4Q.webp"></td>
+        </tr>
+      </tbody>
+    </table>
+
+    <h2>우승</h2>
+    <table>
+      <thead>
+        <tr> 
+          <th>리그</th>
+          <th>사진</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>챔피언스리그</td>
+          <td><img src="https://i.namu.wiki/i/BuMh9njvyzXIHEJ67xktd-AzK6A5XjRhBiCzGsULiiIPYvlWLgCl8mOPVwCDdsabL-gto35rifVVMQN5B7xw4Q.webp"></td>
+        </tr>
+        <tr>
+          <td>유로파리그</td>
+          <td><img src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcSKccXyT11zOsHEqcpC5o-U2UW7lpMymik9hZVDK2TlHMq-IEISgC4XC1F_iKYrXddJ"></td>
+        </tr>
+        <tr>
+          <td>유로파 컨퍼러스 리그</td>
+          <td><img src="https://t0.gstatic.com/licensed-image?q=tbn:ANd9GcSKccXyT11zOsHEqcpC5o-U2UW7lpMymik9hZVDK2TlHMq-IEISgC4XC1F_iKYrXddJ"></td>
+        </tr>
+      </tbody>
+    </table>
+    <h2>각 컵대회당 수상자</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>챔피언스 리그</th>
+          <th>이름</th>
+          <th>사진</th>
+          <th>유로파 리그</th>
+          <th>이름</th>
+          <th>사진</th>
+          <th>유로파 컨퍼런스 리그</th>
+          <th>이름</th>
+          <th>사진</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>득점왕</td>
+      <td>이름</td>
+      <td><img src="https://i.namu.wiki/i/BuMh9njvyzXIHEJ67xktd-AzK6A5XjRhBiCzGsULiiIPYvlWLgCl8mOPVwCDdsabL-gto35rifVVMQN5B7xw4Q.webp"></td>
+      <td>득점왕</td>
+      <td>이름</td>
+      <td><img src="https://i.namu.wiki/i/BuMh9njvyzXIHEJ67xktd-AzK6A5XjRhBiCzGsULiiIPYvlWLgCl8mOPVwCDdsabL-gto35rifVVMQN5B7xw4Q.webp"></td>
+      <td>득점왕</td>
+      <td>이름</td>
+      <td><img src="https://i.namu.wiki/i/BuMh9njvyzXIHEJ67xktd-AzK6A5XjRhBiCzGsULiiIPYvlWLgCl8mOPVwCDdsabL-gto35rifVVMQN5B7xw4Q.webp"></td>
+    </tr>
+    <tr>
+      <td>도움왕</td>
+      <td>이름</td>
+      <td><img src="https://i.namu.wiki/i/BuMh9njvyzXIHEJ67xktd-AzK6A5XjRhBiCzGsULiiIPYvlWLgCl8mOPVwCDdsabL-gto35rifVVMQN5B7xw4Q.webp"></td>
+      <td>도움왕</td>
+      <td>이름</td>
+      <td><img src="https://i.namu.wiki/i/BuMh9njvyzXIHEJ67xktd-AzK6A5XjRhBiCzGsULiiIPYvlWLgCl8mOPVwCDdsabL-gto35rifVVMQN5B7xw4Q.webp"></td>
+      <td>도움왕</td>
+      <td>이름</td>
+      <td><img src="https://i.namu.wiki/i/BuMh9njvyzXIHEJ67xktd-AzK6A5XjRhBiCzGsULiiIPYvlWLgCl8mOPVwCDdsabL-gto35rifVVMQN5B7xw4Q.webp"></td>
+    </tr>
+  </main>
+</body>
 </html>
